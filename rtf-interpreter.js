@@ -185,6 +185,9 @@ class RTFInterpreter extends Writable {
   ctrl$li (value) {
     this.group.style.indent = value
   }
+  ctrl$sl (value) {
+    this.group.style.lineSpacing = value
+  }
   ctrl$lin (value) {
     this.group.style.indent = value
   }
